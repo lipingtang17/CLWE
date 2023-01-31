@@ -1,0 +1,13 @@
+{
+    "data_dir": "/mnt/ssd-201-112-01/cpii.local/lptang/EvalDataset/multinli_1.0",
+    "embeddings_file": "/mnt/ssd-201-112-01/cpii.local/lptang/WordEmb/fasttext/wiki.en.vec",
+    "lowercase": true,
+    "ignore_punctuation": false,
+    "num_words": null,
+    "stopwords": [],
+    "labeldict": {"entailment": 0,
+                  "neutral": 1,
+                  "contradiction": 2},
+    "bos": "_BOS_",
+    "eos": "_EOS_"
+}

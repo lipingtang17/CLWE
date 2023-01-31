@@ -1,0 +1,7 @@
+faiss==1.7.0
+numpy==1.19.2
+torch==1.8.1
+tqdm==4.60.0
+scipy==1.6.3
+ipdb==0.13.7
+scikit_learn==0.24.2

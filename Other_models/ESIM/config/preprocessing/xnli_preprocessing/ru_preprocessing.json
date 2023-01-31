@@ -1,0 +1,16 @@
+{
+    "data_dir": "/mnt/ssd-201-112-01/cpii.local/lptang/EvalDataset/XNLI-1.0",
+    "embeddings_file": "/mnt/ssd-201-112-01/cpii.local/lptang/WordEmb/fasttext/wiki.ru.vec",
+    "target_dir": "../../data/preprocessed/XNLI/ru",
+    "mapping_dir": "/mnt/ssd-201-112-01/cpii.local/lptang/checkpoints/CLWE/unsup_formal/orig/en_ru/001",
+    "lang": "ru",
+    "lowercase": false,
+    "ignore_punctuation": false,
+    "num_words": null,
+    "stopwords": [],
+    "labeldict": {"entailment": 0,
+                  "neutral": 1,
+                  "contradiction": 2},
+    "bos": "_BOS_",
+    "eos": "_EOS_"
+}
