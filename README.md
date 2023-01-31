@@ -56,7 +56,7 @@ You can also control other hyperparameters. </br></br>
 For example to run EN-ES:
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python unsupervised.py --src_lang en --tgt_lang es --src_emb "./data/fastText//wiki.en.vec" --tgt_emb "./data/fastText//wiki.es.vec" --mid_domain True --n_epochs 20 --autoenc_epochs 25 --epoch_size 100000 --dico_eval "./data/dictionaries/" --finetune_epochs 5 
+CUDA_VISIBLE_DEVICES=0 python unsupervised.py --src_lang en --tgt_lang es --src_emb "./data/fastText/wiki.en.vec" --tgt_emb "./data/fastText/wiki.es.vec" --mid_domain True --n_epochs 20 --autoenc_epochs 25 --epoch_size 100000 --dico_eval "./data/dictionaries/" --finetune_epochs 5 
 ```
 
 You can also simply run:
